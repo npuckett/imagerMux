@@ -26,9 +26,9 @@ void draw() {
     background(255);
     lights();
     pushMatrix();
-    rotateX(radians(pitch));
-    rotateY(radians(yaw));
-    rotateZ(radians(roll));
+    rotateX(radians(roll));
+    rotateY(radians(pitch));
+    rotateZ(radians(yaw));
     for (int y = 0; y < 8; y++) {
       for (int x = 0; x < 8; x++) {
         int index = x + y * 8;
